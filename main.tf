@@ -19,7 +19,7 @@ module "centos-server-linuxvm" {
   vmnameformat  = "%03d" #To use three decimal with leading zero vmnames will be AdvancedVM001,AdvancedVM002
   vmrp      = "Felix-Cluster/Resources/terraform"
   network = {
-    "VM Network" = ["192.168.22.67", "192.168.22.68", "192.168.22.69"] # To use DHCP create Empty list ["",""]; You can also use a CIDR annotation;
+    "VM Network" = ["192.168.22.71", "192.168.22.72", "192.168.22.73"] # To use DHCP create Empty list ["",""]; You can also use a CIDR annotation;
   }
   vmgateway = "192.168.0.250"
   dc        = "Felix-DC"
